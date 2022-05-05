@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: sienna;
+}
+
+ul li {
+  color: rosybrown;
+  list-style: none;
+}
+section {
+  font-size: large;
+}
