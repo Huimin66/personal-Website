@@ -12,4 +12,18 @@ ul li {
 }
 section {
   font-size: large;
+  font-weight: 700;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav li {
+  background-color: bisque;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  border-radius: 1px;
 }
