@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  color: sienna;
+}
+
+p {
+  color: grey;
+}
+h2 {
+  color: #1c062e;
+}
+ul li {
+  color: grey;
+  list-style: none;
+}
+section {
+  font-size: large;
+  font-weight: 700;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav li {
+  background-color: bisque;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  border-radius: 1px;
+}
+.foto {
+  display: flex;
+  height: 100px;
+  justify-content: flex-start;
+}
