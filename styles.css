@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Dosis", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   color: sienna;
+  margin: 20px 10px;
 }
 
 p {
@@ -13,30 +16,44 @@ p {
 }
 h2 {
   color: #1c062e;
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
 }
 ul li {
   color: grey;
-  list-style: none;
 }
-section {
-  font-size: large;
-  font-weight: 700;
-}
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   gap: 10px;
+  padding: 5px 10px;
 }
 
 .nav li {
   background-color: bisque;
   border: 1px solid gainsboro;
   padding: 5px;
-  border-radius: 1px;
 }
 .foto {
   display: flex;
   height: 100px;
   justify-content: flex-start;
+  padding: 5px 10px;
+  border-radius: 5px; /* ？？？*/
+}
+.section {
+  margin: 20px 10px;
+  padding: 5px 10px;
+  background-color: rgb(230, 227, 224);
+  border-radius: 5px;
+}
+
+.footer {
+  margin: 20px;
+  text-align: center;
+  font-size: 0.8rem;
 }
