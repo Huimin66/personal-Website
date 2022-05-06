@@ -25,12 +25,21 @@ ul li {
   color: grey;
 }
 
+header {
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .nav {
+  line-height: 100%;
+  text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  padding: 5px 10px;
 }
 
 .nav li {
@@ -38,13 +47,16 @@ ul li {
   border: 1px solid gainsboro;
   padding: 5px;
 }
-.foto {
-  display: flex;
-  height: 100px;
-  justify-content: flex-start;
+.fotos {
   padding: 5px 10px;
-  border-radius: 5px; /* ？？？*/
 }
+
+.foto {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
 .section {
   margin: 20px 10px;
   padding: 5px 10px;
