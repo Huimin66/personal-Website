@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Dosis", sans-serif;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -31,6 +30,7 @@ h3 {
 }
 li {
   color: grey;
+  list-style: none;
 }
 
 .header {
@@ -50,7 +50,13 @@ li {
 .nav li {
   background-color: bisque;
   border: 1px solid gainsboro;
-  padding: 0.3rem;
+  padding: 0.4rem;
+  list-style: none;
+  border-radius: 0.3rem;
+}
+
+.nav li a {
+  text-decoration: none;
 }
 
 .foto_tags_container {
