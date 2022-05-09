@@ -86,8 +86,15 @@ li {
   background-color: rgb(220, 196, 166);
 }
 
-.link_to img {
+.link_to_img {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link_to img {
+  flex-wrap: 1;
+  max-width: 400px;
 }
 
 .signature p {
